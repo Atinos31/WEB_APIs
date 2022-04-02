@@ -11,9 +11,15 @@ The visualization is based on information from github," a site that allows progr
 ## Steps
 #### Using the web API
 1. Requesting data using an API call
+ * GitHub's API lets you request a wide range of information through API calls . To see what an API call looks like , copy and paste this url into your browser's adress bar and press ENTER:
+   *  https://api.github.com/search/repositories?q=language:python&sort=stars
+   This call returns the number of python projects currently hosted on GitHub as well as information about the most popular repositories.
 2. Installing Requests
+    * The request package allows a Python program to easily request information from the website & examine the response.
+       * $ python3 -m pip install  --user requests
 3. Processing an API response
 4. Working with the response dictionary
+   * GitHub API returns lots of information about each repository: there are 78 keys in repo_dict.
 5. Summarizing the top repositories
 6. Monitoring API limits
 #### Visualization repositories using plotly
