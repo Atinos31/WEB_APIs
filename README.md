@@ -26,4 +26,4 @@ The visualization is based on information from github," a site that allows progr
 1. Refining ploty charts
 2. Adding custome tooltips
 3. Adding clickable links to the graph
-4. Plotly & Github API
+
